@@ -7,6 +7,9 @@
     "build": "snowpack build",
     "lint": "tsdx lint --fix"
   },
+  "engines": {
+    "node": ">=10"
+  },
   "keywords": [
     "Barcode Scanning Parser",
     "PDF417",
@@ -30,13 +33,8 @@
     "typescript": "^4.1.3"
   },
   "dependencies": {
+    "@sparkfish/scanray": "^1.1.4",
     "@svelteschool/svelte-forms": "^0.7.0",
-    "@types/luxon": "^1.25.1",
-    "luxon": "^1.26.0",
-    "onscan.js": "^1.5.2",
-    "pdf417-generator": "^1.0.2",
-    "scanray": "file:../../scanray",
-    "string-algorithms": "^1.0.31",
     "svelte": "^3.24.0"
   }
 }
