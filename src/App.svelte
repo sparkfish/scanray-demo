@@ -1,7 +1,7 @@
 <script>
   import { onMount, onDestroy } from 'svelte'
   import Form from '@svelteschool/svelte-forms'
-  import Scanray, { onScan } from 'scanray'
+  import Scanray, { onScan } from '@sparkfish/scanray'
 
   // initialize scanner and events
   $: values = {}

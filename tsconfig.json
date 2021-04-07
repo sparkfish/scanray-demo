@@ -6,7 +6,7 @@
 
     "include": ["src/**/*"],
     "exclude": ["node_modules/*", "__sapper__/*", "public/*"],
-
+    "target": "es5",
     "compilerOptions": {
         "module": "esNext",
         "target": "esnext",
